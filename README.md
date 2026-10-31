@@ -18,6 +18,15 @@ Click the badge below to run the analysis notebook directly in Google Colab:
 
 Alternatively, clone this repository and run locally:
 ```bash
-git clone [https://github.com/collinskiplangatrotich/plp-da-a1-gikomba-stall-analysis.git](https://github.com/collinskiplangatrotich/plp-da-a1-gikomba-stall-analysis.git)
+git clone https://github.com/collinskiplangatrotich/plp-da-a1-gikomba-stall-analysis.git
 cd plp-da-a1-gikomba-stall-analysis
 jupyter notebook stall_analysis.ipynb
+```
+
+---
+
+## 📊 Top Three Findings
+
+1. **Weekend Sales Dominance:** Weekend sales (Sat–Sun average **KES 4,900.00**) outperformed weekday sales (Mon–Fri average **KES 2,685.00**) by **82.50%**, making weekends the primary revenue driver.
+2. **Immediate Reorder Needed for Tomatoes & Sukuma:** Current inventory levels for Tomatoes (**18 kg** vs. 25 kg threshold) and Sukuma (**9 kg** vs. 15 kg threshold) are at or below reorder levels, requiring immediate supplier restocking.
+3. **Avocado Delivers the Highest Gross Profit Margin:** Avocado generates the highest gross profit margin at **42.86%** (selling at KES 140/kg vs. KES 80/kg cost), followed by Sukuma wiki at **40.00%**.
