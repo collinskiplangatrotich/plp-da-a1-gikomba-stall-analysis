@@ -1,4 +1,4 @@
-# Gikomba Stall Sales Analysis (`plp-da-a1-gikomba-stall-analysis`)
+# Gikomba Fresh Produce Stall Analysis (`plp-da-a1-gikomba-stall-analysis`)
 
 **Student Name:** Collins Kiplangat Rotich  
 **Cohort:** Data Analytics with Python - PLP Academy  
@@ -6,7 +6,7 @@
 ---
 
 ## 📌 Business Problem Summary
-Wanjiku operates a busy retail clothing stall in Gikomba Market selling dresses, t-shirts, and jeans. While revenue comes in daily, Wanjiku struggles with inventory management, tracking product profitability, and identifying stockout risks before running out of popular items. This project analyzes her weekly sales data using core Python data structures to calculate item-level totals, weekly revenue (**KES 417,400**), overall profit (**KES 186,900**), daily performance tiers, and automated inventory reorder recommendations.
+Wanjiku operates a fresh-produce stall in Gikomba Market selling tomatoes, onions, sukuma wiki, potatoes, and avocados. Over the past two weeks, she recorded daily sales manually without formal inventory tracking. As her freelance analyst, this project evaluates her 14-day sales data and stock levels using core Python data structures. The analysis reveals a total revenue of **KES 44,450**, a week-on-week growth of **1.59%**, a **81.48% weekend sales premium**, and key inventory reorder alerts for **Tomatoes** and **Sukuma**.
 
 ---
 
@@ -27,6 +27,6 @@ jupyter notebook stall_analysis.ipynb
 
 ## 📊 Top Three Findings
 
-1. **Weekend Sales Dominance:** Saturday was the best-performing day generating **KES 121,000**, while Sunday recorded the lowest sales at **KES 28,500**. Friday and Saturday together accounted for nearly 50% of the stall's total weekly revenue.
-2. **Critical Inventory Stockout Risk for T-Shirts:** T-shirts are Wanjiku's highest volume item (200 units sold over 7 days), but her current inventory of 30 units leaves only **1.1 days** of stock remaining, requiring immediate restocking.
-3. **High Unit Margin on Jeans:** Although T-shirts lead in sheer volume, Jeans generate the highest unit profit margin (**KES 800 profit per pair** vs. **KES 250 per T-shirt** and **KES 500 per dress**), contributing KES 74,400 in profit.
+1. **Weekend Sales Dominance:** Weekend sales (Sat–Sun average **KES 4,900.00**) outperformed weekday sales (Mon–Fri average **KES 2,700.00**) by **81.48%**, making weekends the primary revenue driver.
+2. **Immediate Reorder Needed for Tomatoes & Sukuma:** Current inventory levels for Tomatoes (**18 kg** vs. 25 kg threshold) and Sukuma (**9 kg** vs. 15 kg threshold) are at or below reorder levels, requiring immediate supplier restocking.
+3. **Avocado Delivers the Highest Gross Profit Margin:** Avocado generates the highest gross profit margin at **42.86%** (selling at KES 140/kg vs. KES 80/kg cost), followed closely by Sukuma wiki at **40.00%**.
